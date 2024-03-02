@@ -1,5 +1,4 @@
 TCP-Based Multithreaded HTTP Web Server
-                                                                            <img width="187" alt="Screenshot 2024-03-02 at 21 00 10" src="https://github.com/matanyaniv8/Web-Server/assets/95882684/6ced4863-4179-4341-95be-6b1f8b28f23d">
 
 Introduction:
 This project is a Multithreaded HTTP server implemented in Java that supports handling GET, POST, TRACE, and HEAD HTTP requests.
@@ -8,7 +7,8 @@ The server processes incoming requests and generates responses accordingly.
 
 
 Supported HTTP Methods:
-- GET - Retrieves data from the server.
+- GET - Retrieves data from the server.                                                                                                        <img width="187" alt="Screenshot 2024-03-02 at 21 00 10" src="https://github.com/matanyaniv8/Web-Server/assets/95882684/6ced4863-4179-4341-95be-6b1f8b28f23d">
+
 - POST - Sends data to the server for processing.
 - TRACE - Echoes back the received request for testing purposes.
 - HEAD - Requests the headers of a resource without requesting the resource itself.
