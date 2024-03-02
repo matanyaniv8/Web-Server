@@ -7,7 +7,7 @@ The server processes incoming requests and generates responses accordingly.
 
 
 Supported HTTP Methods:
-- GET - Retrieves data from the server.                                                                                                                                                                                      <img width="120" alt="Screenshot 2024-03-02 at 21 00 10" src="https://github.com/matanyaniv8/Web-Server/assets/95882684/6ced4863-4179-4341-95be-6b1f8b28f23d">
+- GET - Retrieves data from the server.<img width="120" alt="Screenshot 2024-03-02 at 21 00 10" src="https://github.com/matanyaniv8/Web-Server/assets/95882684/6ced4863-4179-4341-95be-6b1f8b28f23d">
 
 - POST - Sends data to the server for processing.
 - TRACE - Echoes back the received request for testing purposes.
