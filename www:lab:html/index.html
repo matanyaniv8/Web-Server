@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Matan's Computer Networks Ex1 Website</title>
+        <LINK rel="icon" type="image/x-icon" href="res/favicon.ico">
+    </head>
+    <style>
+        link {
+            display: none;
+        }
+        body{
+            text-align: center;
+        }
+        
+        #websiteTitle{
+            color: blue;
+        }
+
+        #studentName{
+            color: red;
+        }
+
+        /* To center an element inside its parent i used 0 auto*/
+        table{
+            margin: 0 auto;
+        }
+
+        img {
+            max-width: 50%;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        #courseWebsite{
+           display: block;
+           text-align: left;
+        }
+
+        #favoriteWebsites, #courseActualText{
+            display: block;
+            text-align: left;
+            font-size: 120%;
+        }
+
+        #horizontalLine{
+           border-width: 2px;
+           color:black;
+        }
+
+        form {
+            text-align: left;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 2%;
+            font-size: 120%;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 1%;
+            margin-top: 2%;
+            font-size: 110%;
+        }
+
+        input[type="submit"] {
+            width: 30%;
+            display: block;
+            margin-left: 37%;
+            text-align: center;
+            background-color: navy;
+            color: white;
+            cursor: pointer;
+        }
+        .checkbox-label {
+            display: inline-flex; /* Use inline-flex to make the items inline */
+            align-items: center;
+        }
+
+        .checkbox-label input[type="checkbox"] {
+            margin-right: 5px; /* Adjust the spacing between checkbox and label */
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+    </style>
+    <body>
+        <table>
+            <!--1.Moving title in blue color -->
+            <tr>
+                <td>
+                    <marquee behavior="scroll" direction="left">
+                        <h1 id="websiteTitle">Computer Networks 2023: Exercise 1</h1>
+                    </marquee>
+                </td>
+            </tr>
+            <!-- 2. Full Name in red color-->
+            <tr>
+                <td>
+                    <h1 id="studentName"> Matan Yaniv </h1>
+                </td>
+            </tr>
+             <!-- 3. Two Images that reflects my interserts-->
+            <tr>
+                <td>
+                    <img id="codingLogo" src="./res/coding.jpeg" alt="Coding is my main interest as to this day!" height="65.5%">
+                    <img id="appleImage" src="./res/appleFifthAvenueStore.jpg" alt="Apple's Fifth Avenue Store as a symbole to My intreset in Apple" height="70%">
+                </td>
+            </tr>
+            <!-- 4. Link For Course Website-->
+            <tr>
+                <td>
+                    <a id="courseWebsite" href="https://moodle.runi.ac.il/2024/course/view.php?id=2401572"><p id="courseActualText">Here's the link to Computer Networks Course Website.</p></a>
+                </td>
+                <td></td>
+            </tr>
+            <!-- 5. Link to my favorite websites-->
+            <tr>
+                <td>
+                        <p id="favoriteWebsites">
+                            Hi, my name is Matan Yaniv and as seen in the pictures - my two hobbies are <a href="https://www.apple.com">Apple Inc</a>
+                            and their products and programming, which I can read about at <a href="https://www.theverge.com"> The Verge</a>.
+                        </p>
+                </td>
+            </tr>
+            <!--6. Horizontal Line that devides the following form from the context of the previous things.-->
+            <tr>
+                <td>
+                    <hr id="horizontalLine">
+                </td>
+            </tr>
+            <!--7. HTML "Contact You" Form-->
+            <tr>
+                <td>
+                    <form name="input" action="params_info.html" method="post" id="ContactYouForm">
+                        <!--Sender-->
+                        <label for="sender">Sender:</label>
+                        <input type="text" name="sender" id="sender">
+                        <br>
+                        <!--Receiver-->
+                        <label for="receiver">Receiver:</label>
+                        <input type="text" id="receiver" name="receiver">
+                        <br>
+                        <!--Subject-->
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject">
+                        <br>
+                        <!--Message Content-->
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message"></textarea>
+                        <br>
+                        <div class="checkbox-label">
+                            <input type="checkbox" id="checkbox" name="checkbox" value="yes">
+                            <label for="checkbox">Checkbox</label>
+                        </div>
+                        <!--Submit button-->
+                        <input type="submit" value="Submit">
+                </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
