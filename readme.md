@@ -1,5 +1,8 @@
 TCP-Based Multithreaded HTTP Web Server
 
+
+<img width="187" alt="Screenshot 2024-03-02 at 21 00 10" src="https://github.com/matanyaniv8/Web-Server/assets/95882684/6a64dfad-7832-413b-818e-a580feb64341">
+
 Introduction:
 This project is a Multithreaded HTTP server implemented in Java that supports handling GET, POST, TRACE, and HEAD HTTP requests.
 The server reads its configuration from a config.ini file, which specifies the port number, the maximum number of concurrent threads, the root directory, and the default page.
